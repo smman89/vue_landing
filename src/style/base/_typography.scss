@@ -1,0 +1,56 @@
+.h1, .h3, .h4, .h5, .h6, .a {font-family: Poppins;}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.h3 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.h4 {
+    font-size: 18px;
+}
+.h5 {
+    font-size: 16px;
+}
+.h6 {
+    font-size: 14px;
+}
+
+
+
+[class*="__heading"] {
+  color: $text-color--white;
+  letter-spacing: -0.4px;
+  line-height: 52px;
+}
+
+[class*="__heading_accent"] {
+    color: $text-color--accent;
+    letter-spacing: -0.4px;
+    line-height: 52px;
+}
+
+[class*="__regular"] {
+    color: $text-color--regular;
+    letter-spacing: 0.01px;
+    line-height: 29px;
+} 
+[class*="__primary"] {
+    color: $text-color--white;
+    letter-spacing: 0.01px;
+    line-height: 32px;
+} 
+
+[class*="__accent"] {
+    color: $text-color--accent;
+    letter-spacing: 0.01px;
+    line-height: 29px;
+}  
+
+[class*="__pink"] {
+    color: $text-color--pink;
+}

@@ -4,6 +4,7 @@
     <section-get-started/>
     <section-buisnesses/>
     <section-contact/>
+    <section-partners/>
     <the-footer/>
   </div>
 </template>
@@ -13,6 +14,7 @@ import SectionHero from './components/Sections/SectionHero'
 import SectionContact from './components/Sections/SectionContact'
 import SectionGetStarted from './components/Sections/SectionGetStarted'
 import SectionBuisnesses from './components/Sections/SectionBuisnesses'
+import SectionPartners from './components/Sections/SectionPartners'
 import TheFooter from './components/TheFooter/TheFooter'
 
 export default {
@@ -22,6 +24,7 @@ export default {
     SectionContact,
     SectionGetStarted,
     SectionBuisnesses,
+    SectionPartners,
     TheFooter
   }
 }
@@ -32,7 +35,6 @@ export default {
   @import "./src/style/components/index";
   @import "./src/style/base/index";
 </style>
-
 
 <style scoped>
 #app {

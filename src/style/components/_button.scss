@@ -7,7 +7,7 @@
     font-weight: bold;
     line-height: 19px;
     text-align: center;
-    margin:auto;
+    box-sizing: border-box;
     
     &.btn-pink {
       background-color: $primaryPink;
@@ -18,13 +18,10 @@
       background-color: transparent;
     }
     &.btn-sm {
-      padding: 12px 37.5px;
-    }
-    &.btn-xs {
-      height: 43px;
-      width: 249px;
+      padding: 12px 0;
     }
     &.btn-xl {
-      padding: 20px 42px;
+      padding: 20px 0;
+  
     }
 }

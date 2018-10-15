@@ -20,7 +20,12 @@
     font-size: 14px;
 }
 
-
+.input_text {
+    color: $input_text-color;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 24px;
+}
 
 [class*="__heading"] {
   color: $text-color--white;
@@ -50,6 +55,12 @@
     letter-spacing: 0.01px;
     line-height: 29px;
 }  
+[class*="__leading"] {
+    font-weight: 300;
+    line-height: 40px;	
+    text-align: center;
+    color: $boulder;
+}
 
 [class*="__pink"] {
     color: $text-color--pink;

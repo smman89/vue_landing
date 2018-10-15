@@ -7,5 +7,23 @@
     width: 100%;
 }
 .container {
-    max-width: 1180px;
+    max-width: 1200px;
+    
+    margin: 0 auto;
+   
+}
+.space-around {
+    justify-content: space-around;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.space-between {
+    justify-content: space-between
+}
+.items-center {
+    align-items: center;
 }

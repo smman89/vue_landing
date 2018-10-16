@@ -9,18 +9,18 @@
     text-align: center;
     box-sizing: border-box;
     
-    &.btn-pink {
+    &_pink {
       background-color: $primaryPink;
       border: none;
     }
-    &.btn-transparent {
+    &_transparent {
       border: 1px solid $primaryWhite;
       background-color: transparent;
     }
-    &.btn-sm {
+    &_sm {
       padding: 12px 0;
     }
-    &.btn-xl {
+    &_xl {
       padding: 20px 0;
   
     }

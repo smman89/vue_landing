@@ -19,8 +19,7 @@ export default {
 .step {
   display: flex;
   &__img-number {
-    height: auto;
-    object-fit: scale-down;
+    object-fit: none;
     object-position: top;
     margin-right: 29px;
   }

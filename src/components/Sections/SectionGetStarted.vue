@@ -18,10 +18,10 @@
 <script>
 import Step from "../UI/Step/Step";
 export default {
-  name: "SectionGetStarted",
-  components: {
-    Step
-  },
+	name: "SectionGetStarted",
+	components: {
+			Step
+	},
   data() {
     return {
       steps: [

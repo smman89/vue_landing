@@ -4,8 +4,8 @@
 			<div class="grid__row space-between">
 			<img class="col-md-3 col-xs-12 logo" src="/static/img/Hero/eDining_logo_white.svg" alt="logo">
 			<div class="col-md-5 col-xs-12"></div>
-				<button class="col-md-2 col-xs-12 btn btn-pink btn-sm">REGISTER</button>
-				<button class="col-md-2 col-xs-12 btn btn-transparent btn-sm">LOGIN</button>
+				<button class="col-md-2 col-xs-12 btn btn_pink btn_sm">REGISTER</button>
+				<button class="col-md-2 col-xs-12 btn btn_transparent btn_sm">LOGIN</button>
 			</div>
 		</div>
 		<div class="grid">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 			<div class="grid__row">
-				<button class="col-md-4 col-xs-12 btn btn-pink btn-xl">REGISTER YOUR BUSINESS</button>
+				<button class="col-md-4 col-xs-12 btn btn_pink btn_xl">REGISTER YOUR BUSINESS</button>
 			</div>
 		</div>
 	</section>
@@ -24,16 +24,16 @@
 
 <script>
 export default {
-  name: "SectionHero",
-  components: {},
-  data() {
-    return {
-      title: "Attract more customers with the eDining Digital Gift Card",
-      desc:
-        "Boost traffic and revenue by accepting the eDining Digital Gift" +
-        "Card from members of leading loyalty programs."
-    };
-  }
+	name: "SectionHero",
+	components: {},
+	data() {
+		return {
+		title: "Attract more customers with the eDining Digital Gift Card",
+		desc:
+			"Boost traffic and revenue by accepting the eDining Digital Gift" +
+			"Card from members of leading loyalty programs."
+		};
+	}
 };
 </script>
 
@@ -47,7 +47,7 @@ export default {
 .h1 {
   text-align: left;
 }
-.btn-sm {
+.btn_sm {
   align-self: center;
 }
 </style>

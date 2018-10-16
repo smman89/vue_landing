@@ -16,16 +16,16 @@
 export default {
   data() {
     return {
-      partners: [
-        { title: "suncorp", img: "Suncorp.svg" },
+    partners: [
+    	{ title: "suncorp", img: "Suncorp.svg" },
         { title: "AAMI", img: "AAMI.svg" },
         { title: "GIO", img: "RACQ.png" },
         { title: "RACQ", img: "RACQ.png" }
-      ],
-      title: "Our leading partners",
-      desc:
-        "eDining Digital Gift Cards are offered exclusively <br>" +
-        "through some of Australia’s leading loyalty programs."
+    ],
+	title: "Our leading partners",
+	desc:
+	"eDining Digital Gift Cards are offered exclusively <br>" +
+	"through some of Australia’s leading loyalty programs."
     };
   }
 };
@@ -33,16 +33,16 @@ export default {
 
 <style lang="scss" scoped>
 .h1 {
-  	text-align: center;
-	margin-top: 80px;
+  text-align: center;
+  margin-top: 80px;
 }
 .partners__imgs {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: 70px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 70px 0px;
 }
 img {
-  	max-height: 50px;
+  max-height: 50px;
 }
 </style>

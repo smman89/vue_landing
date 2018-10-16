@@ -14,7 +14,7 @@
 				<base-input :input="contactForm.msg" class="col-md-12 col-xs-12"/>
 			</div>
 			<div class="grid__row flex-end">
-			<button class="col-md-4 col-xs-12 btn btn-pink btn-xl">SEND</button>
+			<button class="col-md-4 col-xs-12 btn btn_pink btn_xl">SEND</button>
 			</div>
      	</div>
     </section>

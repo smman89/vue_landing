@@ -1,10 +1,10 @@
-# Адаптивная верстка по сетке с использованием Vue, Flexbox, SCSS
+## Адаптивная верстка по сетке с использованием: Vue, Flexbox, SCSS
 
 
-# Build Setup
+Build Setup
 
-# install dependencies
-npm install
+install dependencies
+**npm install**
 
-# serve with hot reload at localhost:8080
-npm run dev
+serve with hot reload at localhost:8080
+**npm run dev**

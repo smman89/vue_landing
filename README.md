@@ -1,4 +1,4 @@
-## Адаптивная верстка по сетке с использованием: Vue, Flexbox, SCSS
+## Responsive grid layout using: Vue, Flexbox, SCSS.
 
 
 Build Setup
